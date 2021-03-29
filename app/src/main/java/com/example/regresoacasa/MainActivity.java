@@ -95,9 +95,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         String origin = "origin=" + ori.latitude + "," + ori.longitude;
         String destination = "destination=" + dest.latitude + "," + dest.longitude;
         String parameters = origin + "&" + destination;
-        String url = "https://maps.googleapis.com/maps/api/directions/" + outputFormat + "?" + parameters + "&key=AIzaSyDB7sUeviwLW21kdRh2418XALiNPa1LNSY";
+        String url = "https://maps.googleapis.com/maps/api/directions/" + outputFormat + "?" + parameters + "&key=AIzaSyBHtYD_i3eqYqdCroUTQDwzb5FtqD323oc";
         return url;
-//&key=AIzaSyDB7sUeviwLW21kdRh2418XALiNPa1LNSY
+//&key=AIzaSyBHtYD_i3eqYqdCroUTQDwzb5FtqD323oc
     }
 
     List<String> LAT = new ArrayList<>();
